@@ -1,7 +1,7 @@
 /* 
  *  Author: Anthea Jung
  *  Created: 10/09/2015
- *  Last modified: 10/13/2015
+ *  Last modified: 10/14/2015
  *  
  *  Redirects the current page to the selected language.  
  */
@@ -13,30 +13,12 @@ var currentPath = window.location.href.split('/');
 //  Access the last element of the array, the page name
 var currentPage = currentPath[currentPath.length - 1];
 
-/*  When the language link is clicked, calls the function lang_handler */
-document.getElementById('lang-change-en').onclick = lang_handler;
-document.getElementById('lang-change-es').onclick = lang_handler;
-document.getElementById('lang-change-fr').onclick = lang_handler;
-document.getElementById('lang-change-de').onclick = lang_handler;
-document.getElementById('lang-change-it').onclick = lang_handler;
-
-/*  when "click" event is trigger, it looks up the element id that 
- *  triggered the event and matches it with the correct language,
- *  and calls change_language */
-function lang_handler(event) {
-    var id = event.target.id;
-    if(id === "lang-change-en") {
-        change_language(id, "en"); 
-    } else if(id === "lang-change-es") {
-        change_language(id, "sp"); 
-    } else if(id === "lang-change-fr") {
-       change_language(id, "fr"); 
-    } else if(id === "lang-change-de") {
-       change_language(id, "de"); 
-    } else { //if(id === "lang-change-it")
-       change_language(id, "it"); 
-    }
-}
+/*  When the language link is clicked, calls the function change_language */
+document.getElementById('lang-change-en').onclick = change_language('lang-change-en', 'en');
+document.getElementById('lang-change-es').onclick = change_language('lang-change-es', 'sp');
+document.getElementById('lang-change-fr').onclick = change_language('lang-change-fr', 'fr');
+document.getElementById('lang-change-de').onclick = change_language('lang-change-de', 'de');
+document.getElementById('lang-change-it').onclick = change_language('lang-change-it', 'it');
 
 /*  Takes two parameters: the id of the element and the language selected by the user
  *  Creates a new path and replaces the href attribute to the created path */
