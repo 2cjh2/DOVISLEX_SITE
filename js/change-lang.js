@@ -6,24 +6,37 @@
  *  Redirects the current page to the selected language.  
  */
 
-//  URL of the current page
-var currentURL = window.location.href;
-//  Splits the URL into an array
-var currentPath = window.location.href.split('/');
-//  Access the last element of the array, the page name
-var currentPage = currentPath[currentPath.length - 1];
-
-/*  When the language link is clicked, calls the function change_language */
-document.getElementById('lang-change-en').onclick = change_language('lang-change-en', 'en');
-document.getElementById('lang-change-es').onclick = change_language('lang-change-es', 'sp');
-document.getElementById('lang-change-fr').onclick = change_language('lang-change-fr', 'fr');
-document.getElementById('lang-change-de').onclick = change_language('lang-change-de', 'de');
-document.getElementById('lang-change-it').onclick = change_language('lang-change-it', 'it');
-
-/*  Takes two parameters: the id of the element and the language selected by the user
- *  Creates a new path and replaces the href attribute to the created path */
-function change_language(id, selectedLanguage) {
+/*  Takes one parameter: the id of the element
+ *  Creates a new path and navigates the page to the new path */
+function changeLang(id) {
+    //  URL of the current page
+    var currentPath = window.location.href.split('/');
+    //  Splits the URL into an array
+    var currentPage = currentPath[currentPath.length - 1];
+    //  Empty string to hold the new path to navigate to
     var newPath = "";
+    
+    /*  depending on the id, different langauge is chosen to be use 
+        when creating a new path */
+    switch(id) {
+        case "lang-change-en": 
+            selectedLanguage = "en"; 
+            break;
+        case "lang-change-es": 
+            selectedLanguage = "sp"; 
+            break;
+        case "lang-change-fr": 
+            selectedLanguage = "fr"; 
+            break;
+        case "lang-change-de": 
+            selectedLanguage = "de"; 
+            break;
+        default:
+            selectedLanguage = "it"; 
+    }
+    
+    /*  constructs the new path by adding new language
+        and the current page name at the end */
     for (i = 0; i < currentPath.length - 1; i++) {
         /*  currentPath.length - 2 is where language element is 
          *  located in the URL  */
@@ -34,5 +47,9 @@ function change_language(id, selectedLanguage) {
         }
         newPath += "/";
     }
-    document.getElementById(id).href= newPath + currentPage;
-};
+    newPath += currentPage;
+    
+    // redirects the page to the new path
+    window.location.href = newPath;
+}
+
