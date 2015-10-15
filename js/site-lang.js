@@ -1,5 +1,10 @@
-//var userLang = navigator.language || navigator.userLanguage;
+
+/* Get the language of the browser, stores it in a variable called userLang */
+////var userLang = navigator.language || navigator.userLanguage;
 //console.log(userLang);
+
+/* If the language of the browser is english, then it adds EN class to
+ * an element with a class named article-title */
 //function tooltip() {
 //    if (userLang == "en-US") {
 //
@@ -9,8 +14,16 @@
 
 // This code is not longer needed. Now the website is built with 3 folders SP,EN and IT each of them are translated by hand.
 
+
 //var langSelected = "Select Language";
+
+/* hides the element with the id navigationId */
 //$('#navigationId').hide();
+
+/* this function below is executed repeatedly with a time delay of 2seconds  
+ * It looks for the current language and replaces the navigationID element 
+ * with a new navigationId element with correct css file for each language
+ * and adds a calss called "translate" or "no translate" to the page */
 //window.setInterval(function () {
 //    var lang = $(".goog-te-menu-value span:first").text();
 //

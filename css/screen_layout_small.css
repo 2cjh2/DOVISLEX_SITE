@@ -152,3 +152,12 @@ div.map-content {
 .items li p { white-space: nowrap;}
 
 
+/*  changes the size and the position 
+    of the language button on top right */
+.btn_language {
+   font-size: 10px;
+}
+
+div.btn {
+    top: -3px;
+}

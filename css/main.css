@@ -244,6 +244,7 @@ div#google_translate_element {
     top: 5%;
     background-color: #eeeeee;
     font-size: 1.4em
+
 }
 
 div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span {
@@ -271,15 +272,21 @@ img.goog-te-gadget-icon {
 }
 
 div.btn {
-    position: relative;
+    /*position: relative;
     right: 15%;
-    background-color:#EEE ;
+    background-color:#EEE ;*/
+    
+    background-color:transparent;
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    padding: 0px;
 }
 
 .btn_language {
     background-color: #FFFFFF;
     border-color: #cccccc;
-    padding: 2px 5px 0px;
+    padding: 0px 5px 0px;
     margin-bottom: 0;
     font-size: 14px;
     font-weight: normal;
