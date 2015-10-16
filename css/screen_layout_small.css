@@ -97,7 +97,12 @@
     float: none;
 }
 
-#navigation .menu-item a {display: inline;  height: 50px;}
+#navigation .menu-item a {
+    display: inline-block;  
+    height: 50px;
+    width: 95%; /*in case calc() is not supported in the browser*/
+    width: calc(100% - 20px);
+}
 #navigation .menu-item:hover > ul { display: none;}
 
 #navigation .menu-item ul{top: 0;}
