@@ -296,6 +296,11 @@ div.btn {
     vertical-align: middle;
     border-radius: 4px;
 }
+
+.btn_language:hover{   
+    background-color: #B09B4C;
+}
+
 .btn_language.en {
     background-color: #B09B4C;
 }
@@ -368,7 +373,7 @@ div.btn {
     padding-right: 10px;
     margin-right: 10px;
     border-right: 1px solid #004d68;
-    line-height: 14px;
+    //line-height: 14px;
     color: #b09b4c;
 }
 
