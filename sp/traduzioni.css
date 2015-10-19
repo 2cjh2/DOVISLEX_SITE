@@ -18,7 +18,7 @@ Because of this and for standardization, these tags are empty in all languages a
 .LcustomTranslationLI#L19::after {content: "appeal to the Boards of Appeal"; }
 .LcustomTranslationLI#L20::after {content: "appeal to the Court of the European Union against decisions of the Boards of Appeal"; }
 
-LcustomTranslationLI#L24::after {content: "against other companies suspected of breaking the rules of European competition law (Articles 101 and 102 TFEU);"; }
+.LcustomTranslationLI#L24::after {content: "against other companies suspected of breaking the rules of European competition law (Articles 101 and 102 TFEU);"; }
 .LcustomTranslationLI#L25::after {content: "against German companies that had de facto imposed in the photovoltaic sector, contracts for the supply of silicon wafers containing clauses which were overly restrictive of competition or otherwise an abuse of their dominant position;"; }
 .LcustomTranslationLI#L26::after {content: "against Italy for having established an unfair and discriminatory system of financing the activity of its Competition Authority."; }
 
