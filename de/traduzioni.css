@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+
+
+/* 2. this replaces original text empty or not */
+.LcustomTranslation {color: transparent;  text-indent: -9999px; line-height: 0;}
+.LcustomTranslation::after { color: #666; text-indent: 0; line-height: initial; display: block;}
+
+.LcustomTranslationLI#L1:after {content: "Maßnahmen um die von der europäischen Kommission verhängte Geldstrafen für die wettbewerbswidrigen Vereinbarungen im Stahlsektor wiederzusetzen;"; }
+
+.LcustomTranslation#L2:after {content: "Die Kanzlei erstellt und führt regelmäßig  Beschwerden vor der Europäischen Kommission:"; }
+
+.LcustomTranslationLI#L3:after {content: "gegen Mitgliedsstaaten die vermutet sind staatliche Beihilfen, unvereinbar mit den europäischen Vorschriften, geplant und / oder versetzt zu haben."; }
+
+.LcustomTranslation#L4:after {content: "Beispiele der Beschwerden die Kanzlei eingerichtet hat:"; }
+
+.LcustomTranslation#L5:after {content: "Zum Beispiel:"; }
+
+.LcustomTranslation#L6:after {content: "Die Richtige Einreihung der eingeführten Waren fordern (die die Höhe der Erhebung von Zöllen und/oder die Existenz von Verbote oder Beschränkungen der Einfuhr bestimmt);"; }
+
+.LcustomTranslation#L7:after {content: "innerhalb der Regeln Zollhallen und MwSt benutzen (vor allem in den Freizonen);"; }
+
+
+.LcustomTranslation#L8::after {content: "Zwischen den Klagen die vor dem Gerichtshof argumentiert worden, als Folge der Vorlagefragen von den nationalen Gerichten erhoben, listen wir die wichtigsten:"; }
+
+.LcustomTranslation#L9:after {content: "- Auf ein Vorabentscheidungsersuchen der italienischen Gerichte"; }
+
+.LcustomTranslation#L10:after {content: "- Auf ein Vorabentscheidungsersuchen der französischen Gerichte:"; }
+
+.LcustomTranslation#L11:after {content: "Das Unternehmen bietet hoch qualifizierte Unterstützung auf dem Gebiet der Landwirtschaft, Fischerei, Umwelt. Diese Unterstützung beinhaltet oft den Umgang mit öffentlichen Verwaltungen und Agenturen in der Auslegung und Anwendung des EU-Rechts. In vielen Fällen können Probleme in diesem Stadium ohne sie sich auf einem Pfad der Rechtsstreitigkeiten gelöst werden. Zur gleichen Zeit, hat sich die Anzahl und Bedeutung der Fälle vor den Gerichten der europäischen Union sehr erheblicht."; }
+
+.LcustomTranslation#L12:after {content: "Kaufvertrag"; }
+
+.LcustomTranslation#L13:after {content: "Die Kanzlei hat zahlreiche Vertriebsvereinbarungen vorbereitet, mit besonderem Augenmerk auf die Probleme -oft von den Kunden unterschützt- der Befolgung der Verbindlichen Vorschriften zum Schutz des Wettbewerbs vom europäischen Recht vorgesehen."; }
+
+.LcustomTranslation#L14:after {content: "Seit 2000 ist die Firma auch im Bereich des geistigen Eigentum tätig."; }
+
+.LcustomTranslation#L15:after {content: "Die European Trademark, falls sie gewährt ist, erstreckt sich auf alle 28 Länder der europäischen Union für einen Zeitraum von 10 Jahren und kann verlängert werden."; }
+
+.LcustomTranslation#L16:after {content: "Die Europäische Marke verleiht ihrem Besitzer Schutz vor Vervielfältigung oder Nachahmung seiner Marke in der gesamten Europäischen Union;  insbesondere auf das Recht, einen dritten zu verbieten ähnliche oder identische Zeichen, ohne Zustimmung, zu benutzen (unter bestimmten Bedingungen, wird dieses Recht auch für Produkte oder Dienstleistungen, verchieden als die für die die Marke engetragen ist, erweitert)."; }
+.LcustomTranslationLI#L17:after {content: "eine Handlung für die Nichtigkeit einer Marke vorlegen, die an ein anderes Unternehmen gewährt worde."; }
+.LcustomTranslationLI#L18:after {content: "Antrag auf Nichtigerklärung oder Erklärung"; }
+.LcustomTranslationLI#L19:after {content: "Berufung an die Beschwerdekammern"; }
+.LcustomTranslationLI#L20:after {content: "Berufung an das Gericht der Europäischen Union gegen die Entscheidungen der Beschwerdekammern"; }
+.LcustomTranslation#L21:after {content: "Das Ziel einer Immobilientransaktion kann ein der folgenden sein:"; }
+.LcustomTranslation#L22:after {content: "Wie für die Untestützung bei der Auswahl der möglichen Immobilie oder Wohnung -oder umgekehrt, wenn sie Besitzer sind- können wir sie zu den verschiedenen Fachleuten, mit denen wir gute Arbeitsbeziehungen haben, die sich um italienische und internationale Kunden zu helfen spezialisieren."; }
+.LcustomTranslation#L23:after {content: "Um eine Vorstellung von der Art der Fälle die die Kanzlei vor dem Gericht und dem Gerichtshof der europäischen Union vertreten, zu geben, hier verzeichnen wir die "direkte" Verfahren:"; }
+.LcustomTranslationLI#L24:after {content: "gegen andere Unternehmen die verdächtgt sind die regeln des europäischen Wettbewerbsrechts übertreten zu haben(Artikel 101 102 AEUV);"; }
+.LcustomTranslationLI#L25:after {content: "gegen deutsche unternehmen, die de facto, in der Photovoltaik-Branche, Verträge über die Lieferung von Siliziumwafern aufgelegt hatten, mit Klauseln die übermäig Wettbewerbsbeschränken oder anderweitig einen Missbrauch ihrer beherrschenden Stellung waren"; }
+.LcustomTranslationLI#L26:after {content: "gegen Italien, die ein ungerechtes und discriminierende Finanzierungssystems der Tätigkeit ihrer Wettbewerbsbehörde eingerichtet hatte."; }
+.LcustomTranslation#L27:after {content: "Um eine bessere Vorstellung von der Art der Fälle die die Firma vor dem Gericht und dem Gerichtshof der europäischen Union vertreten zu geben, verzeicnen wir, als Beispiele, nur ein Paar "direkte" Verfahren:"; }
+.LcustomTranslationLI#L28:after {content: "Nichtigkeitsklage gegen eine entscheidung der Kommission, durch die ein Investitionprojekt für die Rationalisierung der Herstellung von dehydrierten Luzerne von der Gemeisaftsfinanzierung ausgeschlossen worde;"; }
+.LcustomTranslationLI#L29:after {content: "Klage gegen die Ablehnung der Kommission, von einem Angebot in einer Ausschreibung eines Gemeischaftswettbewerbs für den Verkauf des Gerste, der aus Bestände der österreichischen Behörde gehalten wurde."; }
+.LcustomTranslation#L30:after {content: "Redigierung der Unternehmensgründung Unterlagen (Artikel der Eingemeidungen, Satzung,…"; }
+.LcustomTranslation#L31:after {content: "Möglichkeit das Wahldomiziel bei der Kanzlei zu begründen"; }
+.LcustomTranslation#L32:after {content: "Rechtsberatung vor den Regierungsbehörden einschließlich sprachliche Untertsützung"; }
+.LcustomTranslation#L33:after {content: "Unterstützung und Interaktion mit Notaren (dh für die Eintragung der Gesleeschaft, etc.)"; }
+.LcustomTranslation#L34:after {content: "Unterstützung bei der suche nach passenden Immobilien durch ein Kontaktnetzwerk in der Immobilienbranche"; }
+.LcustomTranslation#L35:after {content: "Verwaltung von Angelegenheiten mit dem Notar"; }
+.LcustomTranslation#L36:after {content: "Verwaltung der Vertretung mit den Wohnungseigentumsverwaltern"; }
+.LcustomTranslation#L37:after {content: "Umgang mit anderen Transaktionssteuern: zB City Tax"; }
+.LcustomTranslation#L38:after {content: "Aufrechterhaltung von den Rechnungsabschlussen von Gesellschaften"; }
+.LcustomTranslation#L39:after {content: "Das Recht der Europäischen Union (oder das Gemeischaftsrecht, wie der Begriff, der vor dem Vertrag Von Lissabon, der am 1. Dezember 2009 Kraft vertretrat, verwendet wurde) ist auf alle natürlichen und juristischen Personen gerichtet, auch diejenigen, die / der Arbeit ausschließlich innerhalb ihrer nationalen Grenzen zu leben."; }
+.LcustomTranslation#L40:after {content: "In der Tat, gilt EU-Recht nicht nur für internationale Beziehungen (Intra- und Extra-EU), sondern es hat auch einen Einfluss auf viele Bereiche des Rechts (entweder durch direkte Anwendbarkeit oder weil das Recht eines Mitgliedstaats sich mit dem überwins)."; }
+.LcustomTranslation#L41:after {content: "EU-Recht kann durch alle diejenigen, die ein Interesse daran haben in mehrere Alleen und Gerichtsbarkeiten geltend gemacht werden."; }
+.LcustomTranslation#L42:after {content: "In der Tat müssen die nationale Gerichte EU-Recht anwenden und, wenn sie Zweifel an der Auslegung oder Gültigkeit haben, können - und manchmal müssen - sie den Gerichtshof in Luxemburg, für eine Vorabentscheidung, anrufen."; }
+.LcustomTranslation#L43:after {content: "Die Verantwortung gegenüber EU-Recht anzuwenden und durchzusetzen , zum Not in Zusammenarbeit mit dem Gerichtshof der Europäischen Union, mit Sitz in Luxemburg, beruht in erster Linie auf den nationalen Gerichten."; }
+.LcustomTranslation#L44:after {content: "In der Tat, das vorlegnde Gericht, zu einem Thema aufgefordert (Zivil-, Straf-, Verwaltungs-, oder Steuern), deren Ausgang von einer EU- Regel / Rechtsgrundsatz hängt, kann oder sollte das Verfahren aussetzen, um den Gerichtshof eine Vorabentscheidungsfra über die korrekte Auslegung und ihrer Gültigkeit dieser Regel / Prinzip im Einklang mit Artikel 267 AEUV (Vertrag über die Arbeitsweise der Europäischen Union)"; }
+.LcustomTranslation#L45:after {content: "Die Bezugnahme auf die Rechtsprechung des Gerichtshofs ist ein sehr wichtiges Instrument der Zusammenarbeit zwischen den nationalen Gerichten und dem Gerichtshof, da es in die ehemalige - zum Beispiel - eine Auslegung des Unionsrechts erforderlich, um Streitigkeiten vor diesen Gerichten zu lösen (in Fällen wo - zum Beispiel - beide Parteien auf EU-Recht berufen aber es auf unterschiedliche Weise zu interpretieren ist, oder wenn eine Partei EU-Recht beruft und die andre nationales Recht beruft)."; }
+.LcustomTranslation#L46:after {content: "Obwol die Bezugsentscheidung nur durch Beschluss der Nationalen Richter in dem Fall  eingeleitet werden kann, ist es oft sehr ratsam, dass eine oder beide Parteien das rechtsstreits die Aktivierung dieses Instruments drängen. "; }
+.LcustomTranslation#L47:after {content: "Während eines solchen Verfahrens, haben die Parteien der nationalen Gerichte das Recht, an den Europäischen Gerichtshof Beobachtungen zu Bringen (schriftlich und /oder mündlich). So haben sie die Möglichkeit eine aktive Rolle zu spielen, , um zu versuchen, um den Europäisch Gerichtshof um eine Auslegung (oder ein Urteil über die Gültigkeit) bieten der Gemeinschaft günstig, ihre Diplomarbeit herrscht."; }
+.LcustomTranslation#L48:after {content: "Unter bestimmten Bedingungen können die interessierten Parteien auch direkte Aktionen vor dem Gerichtshof beginnen (deren Entscheidungen werden dann vor dem Gerichtshof rechtskräftig), um Anfrage:"; }
+.LcustomTranslation#L49:after {content: "die Nichtigerklärung einer Handlung (artikel 263 AEUV) oder die Erklärung der Untätigkeit (Artikel 265 AEUV) von den europäischen Institutionen (und in einige Fällen sogar von anderen Einrichtungenoder sonstigen Stellen der Union) zu fragen; und / oder"; }
+.LcustomTranslation#L50:after {content: "die Zahlung von Schadenersatz (Artikel 268 und 340 AEUV) als Ergebnis dieser Handlungen oder Ausfälle, zu fragen."; }
+.LcustomTranslation#L51:after {content: "Die Beschwerde erfüllt nicht, wenn überhaupt (auch um Rezepte oder Verwirkung zu vermeiden), eine geplante rechtiche Klage auf nationaler Ebene; jedoch kann es ein "strategischen" Werkzeug zum Zwerke der besseren Schutz der Kunden des Unternehmens sein. "; }
+.LcustomTranslation#L52:after {content: "In der Tat, eine Beschwerde,  -wenn sie begründet erscheint- die Kommission (falls notwendig, durch die Aufnahme förmlicher gemäß Artikel 258 AEUV "Vertragsverletzungsverfahren"), die zuständigen nationalen Behörden (zentrale oder locale) ein Druck zu füh Rechtsvorschriften oder interne Verwaltungspraxis als Verstoß gegen das Gemeinschaftsrecht oder Rechtswissenschaft."; }
+.LcustomTranslation#L53:after {content: "Beschwerden in Wettbewerbssachen (Kartelle und staatliche Behilfen) gelten besondere Regeln in Bezug auf die Verfahren und können, wenn sie begründet sind, die Europäische Kommission dazu führen, die Unternehmen zu sanktionieren oder die Staatsbehilfen Geldbußen gegen die Unternehmen klagte."; }
+.LcustomTranslation#L54:after {content: "Als Beispiel, und mit Sicht nur auf den letzten fünf Jahren, hat die Firma diese Beschwerden eingereicht:"; }
+.LcustomTranslationLI#L55:after {content: "gegen deutsche Unternehmen (Artikel 101 und 102 AEUV) die verdächtigt waren die Regeln des europäischen Wettbewerbsrecht gebrochen zu haben;"; }
+.LcustomTranslationLI#L56:after {content: "gegen Italien wegen der Planung und Umsetzung von steuerliche Maßnahmen, die als staatliche Behilfen mit den europäischen Vorschriften (Artikel 107 und 108 AEUV) nicht vereibar waren;"; }
+.LcustomTranslationLI#L57:after {content: "gegen Italien wegen der Rechtsverletzung des italienischen Obersten Gerichtshof, des rechts auf Vorsteuerabzug, das von dem Europäischen Gerichtshof festgestellt ist;"; }
+.LcustomTranslationLI#L58:after {content: "gegen Polen wegen der Verletzung, von den regionalen Behörden, der europäischen Rechtsvorschriften über die Umwelt und den Grundsätzen der Niederlassungsfreiheit und Dienstleistungsverkehr, nach der Ablehnung, an einem polnishcen Unternehmen mit italienis Hauptstadt die Ermächtigung zu - wird es für diskriminierende Gründe, aus Gründen der Staatsangehörigkeit angenommen Betrieb einer Abfallentsorgungsanlage in Polen."; }
+.LcustomTranslation#L59:after {content: "Schließlich vorbereitet, führt und repräsentiert die Firma Beschwerden an den Europäischen Bürgerbeauftragen (in Übertimmung mit Artikel 228 AEUV), der Beschwerden über Missstände mit Organen und Einrichtungen der Europäischen Union untersuchen."; }
+.LcustomTranslation#L60:after {content: "Wie bei andere Arten von Beschwerden, eine Beschwerde an den Europäischen Bürgerbeautragen -es ist auch zu betonen- vermeidet nicht die Notwendigkeit, mögliche Klagen vor dem Gerichtshof der Europäische Union zu beschreiten."; }
+.LcustomTranslation#L61:after {content: "Aber manchmal kann es eine sinnvolle Alternative, zu anderen Gerichtsverfahren sein, wie der Europäische Bürgerbeautragte beschließen kann, einvernämliche Lösungen, die sowol den Beschwerdeführer wie auch die Institution erfüllen, zu fördern."; }
+.LcustomTranslation#L62:after {content: "Die Firma bietet Unterstützung und Vertretung in Verfahren (formellen oder informellen) in die Beilegung von Streitigkeiten oder Verhinderung von Streitigkeiten, die sich in den beziehungen mit Private oder mit Behörden ausrichtet. "; }
+.LcustomTranslation#L63:after {content: "Das Unternehmen bietet auf alle Ebenen (national und itenational) Unterstützung bei den volgenden Verfahrensarten: Schedsverfahren (formellen und gültichen), Schlichtungen und Mediationen (auch im Steuerbereich)."; }
+.LcustomTranslation#L64:after {content: "Um eine Vorstellung der Art der außergerichtliche Verfahren von der Firma auf der supranationalen Ebene unterstützt zu geben, verzeichnen wir:"; }
+.LcustomTranslation#L65:after {content: "Die Kanzlei Donà Viscardini bietet eine erweiterte Palette von Dienstleistungen in Deutschland. Insbesondere stellt die Firma Beratung und rechtliche und steuerliche Unterstützung für die Öffnung der unternehmen und non-profit Aktivitäten in Deutschland, als auch Unterstützung bei der Immobilien-und anderen Branchen."; }
+
+/* two soljutions */
+/* 1. this works well if original text is empty */
+/*.LcustomTranslation#L8:after {content: "Zwischen den Klagen die vor dem Gerichtshof argumentiert worden, als Folge der Vorlagefragen von den nationalen Gerichten erhoben, listen wir die wichtigsten:";}
+
+.LcustomTranslation#L9:after {content: "Auf ein Vorabentscheidungsersuchen der italienischen Gerichte";}
+
+.LcustomTranslation#L10:after {content: "Auf ein Vorabentscheidungsersuchen der französischen Gerichte:";}
+
+.LcustomTranslation#L11:after {content: "Zur gleichen Zeit, hat sich die Anzahl und Bedeutung der Fälle vor den Gerichten der europäischen Union sehr erheblicht.";}
+*/
+
+/* 2 but with each element selected one by one. For testing only
+.LcustomTranslation#L8 {color: transparent; text-indent: -9999px; line-height: 0;}
+
+
+.LcustomTranslation#L8::after {content: "Zwischen den Klagen die vor dem Gerichtshof argumentiert worden, als Folge der Vorlagefragen von den nationalen Gerichten erhoben, listen wir die wichtigsten:";
+color: #666; text-indent: 0; line-height: initial; display: block;}
+
+
+.LcustomTranslation#L9 {color: transparent; text-indent: -9999px; line-height: 0;}
+.LcustomTranslation#L9:after {content: "- Auf ein Vorabentscheidungsersuchen der italienischen Gerichte"; color: #666; text-indent: 0; line-height: initial; display: block;}
+
+
+.LcustomTranslation#L10 {color: transparent; text-indent: -9999px; line-height: 0;}
+.LcustomTranslation#L10:after {content: "- Auf ein Vorabentscheidungsersuchen der französischen Gerichte:"; color: #666; text-indent: 0; line-height: initial; display: block;}
+
+.LcustomTranslation#L11 {color: transparent; text-indent: -9999px; line-height: 0;}
+.LcustomTranslation#L11:after {content: "Das Unternehmen bietet hoch qualifizierte Unterstützung auf dem Gebiet der Landwirtschaft, Fischerei, Umwelt. Diese Unterstützung beinhaltet oft den Umgang mit öffentlichen Verwaltungen und Agenturen in der Auslegung und Anwendung des EU-Rechts. In vielen Fällen können Probleme in diesem Stadium ohne sie sich auf einem Pfad der Rechtsstreitigkeiten gelöst werden. Zur gleichen Zeit, hat sich die Anzahl und Bedeutung der Fälle vor den Gerichten der europäischen Union sehr erheblicht."; color: #666; text-indent: 0; line-height: initial; display:block ;}
+*/
