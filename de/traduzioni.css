@@ -3,8 +3,23 @@
 
 
 /* 2. this replaces original text empty or not */
-.LcustomTranslation {color: transparent; text-indent: -9999px; line-height: 0;}
+.LcustomTranslation {color: transparent;  text-indent: -9999px; line-height: 0;}
 .LcustomTranslation::after { color: #666; text-indent: 0; line-height: initial; display: block;}
+
+.LcustomTranslationLI#L1:after {content: "Maßnahmen um die von der europäischen Kommission verhängte Geldstrafen für die wettbewerbswidrigen Vereinbarungen im Stahlsektor wiederzusetzen;"; }
+
+.LcustomTranslation#L2:after {content: "Die Kanzlei erstellt und führt regelmäßig  Beschwerden vor der Europäischen Kommission:"; }
+
+.LcustomTranslationLI#L3:after {content: "gegen Mitgliedsstaaten die vermutet sind staatliche Beihilfen, unvereinbar mit den europäischen Vorschriften, geplant und / oder versetzt zu haben."; }
+
+.LcustomTranslation#L4:after {content: "Beispiele der Beschwerden die Kanzlei eingerichtet hat:"; }
+
+.LcustomTranslation#L5:after {content: "Zum Beispiel:"; }
+
+.LcustomTranslation#L6:after {content: "Die Richtige Einreihung der eingeführten Waren fordern (die die Höhe der Erhebung von Zöllen und/oder die Existenz von Verbote oder Beschränkungen der Einfuhr bestimmt);"; }
+
+.LcustomTranslation#L7:after {content: "innerhalb der Regeln Zollhallen und MwSt benutzen (vor allem in den Freizonen);"; }
+
 
 .LcustomTranslation#L8::after {content: "Zwischen den Klagen die vor dem Gerichtshof argumentiert worden, als Folge der Vorlagefragen von den nationalen Gerichten erhoben, listen wir die wichtigsten:"; }
 
@@ -14,6 +29,8 @@
 
 .LcustomTranslation#L11:after {content: "Das Unternehmen bietet hoch qualifizierte Unterstützung auf dem Gebiet der Landwirtschaft, Fischerei, Umwelt. Diese Unterstützung beinhaltet oft den Umgang mit öffentlichen Verwaltungen und Agenturen in der Auslegung und Anwendung des EU-Rechts. In vielen Fällen können Probleme in diesem Stadium ohne sie sich auf einem Pfad der Rechtsstreitigkeiten gelöst werden. Zur gleichen Zeit, hat sich die Anzahl und Bedeutung der Fälle vor den Gerichten der europäischen Union sehr erheblicht."; }
 
+.LcustomTranslation#L12:after {content: "Kaufvertrag"; }
+
 .LcustomTranslation#L13:after {content: "Die Kanzlei hat zahlreiche Vertriebsvereinbarungen vorbereitet, mit besonderem Augenmerk auf die Probleme -oft von den Kunden unterschützt- der Befolgung der Verbindlichen Vorschriften zum Schutz des Wettbewerbs vom europäischen Recht vorgesehen."; }
 
 .LcustomTranslation#L14:after {content: "Seit 2000 ist die Firma auch im Bereich des geistigen Eigentum tätig."; }
@@ -21,19 +38,19 @@
 .LcustomTranslation#L15:after {content: "Die European Trademark, falls sie gewährt ist, erstreckt sich auf alle 28 Länder der europäischen Union für einen Zeitraum von 10 Jahren und kann verlängert werden."; }
 
 .LcustomTranslation#L16:after {content: "Die Europäische Marke verleiht ihrem Besitzer Schutz vor Vervielfältigung oder Nachahmung seiner Marke in der gesamten Europäischen Union;  insbesondere auf das Recht, einen dritten zu verbieten ähnliche oder identische Zeichen, ohne Zustimmung, zu benutzen (unter bestimmten Bedingungen, wird dieses Recht auch für Produkte oder Dienstleistungen, verchieden als die für die die Marke engetragen ist, erweitert)."; }
-.LcustomTranslation#L17:after {content: "eine Handlung für die Nichtigkeit einer Marke vorlegen, die an ein anderes Unternehmen gewährt worde."; }
-.LcustomTranslation#L18:after {content: "Antrag auf Nichtigerklärung oder Erklärung"; }
-.LcustomTranslation#L19:after {content: "Berufung an die Beschwerdekammern"; }
-.LcustomTranslation#L20:after {content: "Berufung an das Gericht der Europäischen Union gegen die Entscheidungen der Beschwerdekammern"; }
+.LcustomTranslationLI#L17:after {content: "eine Handlung für die Nichtigkeit einer Marke vorlegen, die an ein anderes Unternehmen gewährt worde."; }
+.LcustomTranslationLI#L18:after {content: "Antrag auf Nichtigerklärung oder Erklärung"; }
+.LcustomTranslationLI#L19:after {content: "Berufung an die Beschwerdekammern"; }
+.LcustomTranslationLI#L20:after {content: "Berufung an das Gericht der Europäischen Union gegen die Entscheidungen der Beschwerdekammern"; }
 .LcustomTranslation#L21:after {content: "Das Ziel einer Immobilientransaktion kann ein der folgenden sein:"; }
 .LcustomTranslation#L22:after {content: "Wie für die Untestützung bei der Auswahl der möglichen Immobilie oder Wohnung -oder umgekehrt, wenn sie Besitzer sind- können wir sie zu den verschiedenen Fachleuten, mit denen wir gute Arbeitsbeziehungen haben, die sich um italienische und internationale Kunden zu helfen spezialisieren."; }
 .LcustomTranslation#L23:after {content: "Um eine Vorstellung von der Art der Fälle die die Kanzlei vor dem Gericht und dem Gerichtshof der europäischen Union vertreten, zu geben, hier verzeichnen wir die "direkte" Verfahren:"; }
-.LcustomTranslation#L24:after {content: "gegen andere Unternehmen die verdächtgt sind die regeln des europäischen Wettbewerbsrechts übertreten zu haben(Artikel 101 102 AEUV);"; }
-.LcustomTranslation#L25:after {content: "gegen deutsche unternehmen, die de facto, in der Photovoltaik-Branche, Verträge über die Lieferung von Siliziumwafern aufgelegt hatten, mit Klauseln die übermäig Wettbewerbsbeschränken oder anderweitig einen Missbrauch ihrer beherrschenden Stellung waren"; }
-.LcustomTranslation#L26:after {content: "gegen Italien, die ein ungerechtes und discriminierende Finanzierungssystems der Tätigkeit ihrer Wettbewerbsbehörde eingerichtet hatte."; }
+.LcustomTranslationLI#L24:after {content: "gegen andere Unternehmen die verdächtgt sind die regeln des europäischen Wettbewerbsrechts übertreten zu haben(Artikel 101 102 AEUV);"; }
+.LcustomTranslationLI#L25:after {content: "gegen deutsche unternehmen, die de facto, in der Photovoltaik-Branche, Verträge über die Lieferung von Siliziumwafern aufgelegt hatten, mit Klauseln die übermäig Wettbewerbsbeschränken oder anderweitig einen Missbrauch ihrer beherrschenden Stellung waren"; }
+.LcustomTranslationLI#L26:after {content: "gegen Italien, die ein ungerechtes und discriminierende Finanzierungssystems der Tätigkeit ihrer Wettbewerbsbehörde eingerichtet hatte."; }
 .LcustomTranslation#L27:after {content: "Um eine bessere Vorstellung von der Art der Fälle die die Firma vor dem Gericht und dem Gerichtshof der europäischen Union vertreten zu geben, verzeicnen wir, als Beispiele, nur ein Paar "direkte" Verfahren:"; }
-.LcustomTranslation#L28:after {content: "Nichtigkeitsklage gegen eine entscheidung der Kommission, durch die ein Investitionprojekt für die Rationalisierung der Herstellung von dehydrierten Luzerne von der Gemeisaftsfinanzierung ausgeschlossen worde;"; }
-.LcustomTranslation#L29:after {content: "Klage gegen die Ablehnung der Kommission, von einem Angebot in einer Ausschreibung eines Gemeischaftswettbewerbs für den Verkauf des Gerste, der aus Bestände der österreichischen Behörde gehalten wurde."; }
+.LcustomTranslationLI#L28:after {content: "Nichtigkeitsklage gegen eine entscheidung der Kommission, durch die ein Investitionprojekt für die Rationalisierung der Herstellung von dehydrierten Luzerne von der Gemeisaftsfinanzierung ausgeschlossen worde;"; }
+.LcustomTranslationLI#L29:after {content: "Klage gegen die Ablehnung der Kommission, von einem Angebot in einer Ausschreibung eines Gemeischaftswettbewerbs für den Verkauf des Gerste, der aus Bestände der österreichischen Behörde gehalten wurde."; }
 .LcustomTranslation#L30:after {content: "Redigierung der Unternehmensgründung Unterlagen (Artikel der Eingemeidungen, Satzung,…"; }
 .LcustomTranslation#L31:after {content: "Möglichkeit das Wahldomiziel bei der Kanzlei zu begründen"; }
 .LcustomTranslation#L32:after {content: "Rechtsberatung vor den Regierungsbehörden einschließlich sprachliche Untertsützung"; }
@@ -59,10 +76,10 @@
 .LcustomTranslation#L52:after {content: "In der Tat, eine Beschwerde,  -wenn sie begründet erscheint- die Kommission (falls notwendig, durch die Aufnahme förmlicher gemäß Artikel 258 AEUV "Vertragsverletzungsverfahren"), die zuständigen nationalen Behörden (zentrale oder locale) ein Druck zu füh Rechtsvorschriften oder interne Verwaltungspraxis als Verstoß gegen das Gemeinschaftsrecht oder Rechtswissenschaft."; }
 .LcustomTranslation#L53:after {content: "Beschwerden in Wettbewerbssachen (Kartelle und staatliche Behilfen) gelten besondere Regeln in Bezug auf die Verfahren und können, wenn sie begründet sind, die Europäische Kommission dazu führen, die Unternehmen zu sanktionieren oder die Staatsbehilfen Geldbußen gegen die Unternehmen klagte."; }
 .LcustomTranslation#L54:after {content: "Als Beispiel, und mit Sicht nur auf den letzten fünf Jahren, hat die Firma diese Beschwerden eingereicht:"; }
-.LcustomTranslation#L55:after {content: "gegen deutsche Unternehmen (Artikel 101 und 102 AEUV) die verdächtigt waren die Regeln des europäischen Wettbewerbsrecht gebrochen zu haben;"; }
-.LcustomTranslation#L56:after {content: "gegen Italien wegen der Planung und Umsetzung von steuerliche Maßnahmen, die als staatliche Behilfen mit den europäischen Vorschriften (Artikel 107 und 108 AEUV) nicht vereibar waren;"; }
-.LcustomTranslation#L57:after {content: "gegen Italien wegen der Rechtsverletzung des italienischen Obersten Gerichtshof, des rechts auf Vorsteuerabzug, das von dem Europäischen Gerichtshof festgestellt ist;"; }
-.LcustomTranslation#L58:after {content: "gegen Polen wegen der Verletzung, von den regionalen Behörden, der europäischen Rechtsvorschriften über die Umwelt und den Grundsätzen der Niederlassungsfreiheit und Dienstleistungsverkehr, nach der Ablehnung, an einem polnishcen Unternehmen mit italienis Hauptstadt die Ermächtigung zu - wird es für diskriminierende Gründe, aus Gründen der Staatsangehörigkeit angenommen Betrieb einer Abfallentsorgungsanlage in Polen."; }
+.LcustomTranslationLI#L55:after {content: "gegen deutsche Unternehmen (Artikel 101 und 102 AEUV) die verdächtigt waren die Regeln des europäischen Wettbewerbsrecht gebrochen zu haben;"; }
+.LcustomTranslationLI#L56:after {content: "gegen Italien wegen der Planung und Umsetzung von steuerliche Maßnahmen, die als staatliche Behilfen mit den europäischen Vorschriften (Artikel 107 und 108 AEUV) nicht vereibar waren;"; }
+.LcustomTranslationLI#L57:after {content: "gegen Italien wegen der Rechtsverletzung des italienischen Obersten Gerichtshof, des rechts auf Vorsteuerabzug, das von dem Europäischen Gerichtshof festgestellt ist;"; }
+.LcustomTranslationLI#L58:after {content: "gegen Polen wegen der Verletzung, von den regionalen Behörden, der europäischen Rechtsvorschriften über die Umwelt und den Grundsätzen der Niederlassungsfreiheit und Dienstleistungsverkehr, nach der Ablehnung, an einem polnishcen Unternehmen mit italienis Hauptstadt die Ermächtigung zu - wird es für diskriminierende Gründe, aus Gründen der Staatsangehörigkeit angenommen Betrieb einer Abfallentsorgungsanlage in Polen."; }
 .LcustomTranslation#L59:after {content: "Schließlich vorbereitet, führt und repräsentiert die Firma Beschwerden an den Europäischen Bürgerbeauftragen (in Übertimmung mit Artikel 228 AEUV), der Beschwerden über Missstände mit Organen und Einrichtungen der Europäischen Union untersuchen."; }
 .LcustomTranslation#L60:after {content: "Wie bei andere Arten von Beschwerden, eine Beschwerde an den Europäischen Bürgerbeautragen -es ist auch zu betonen- vermeidet nicht die Notwendigkeit, mögliche Klagen vor dem Gerichtshof der Europäische Union zu beschreiten."; }
 .LcustomTranslation#L61:after {content: "Aber manchmal kann es eine sinnvolle Alternative, zu anderen Gerichtsverfahren sein, wie der Europäische Bürgerbeautragte beschließen kann, einvernämliche Lösungen, die sowol den Beschwerdeführer wie auch die Institution erfüllen, zu fördern."; }
