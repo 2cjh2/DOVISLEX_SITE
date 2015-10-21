@@ -11,10 +11,14 @@
                     return value == '-' ? '+' : '-';
                 });
             });
+            
+            $('.showMenu').click(function() {
+                $(this).parent().find('ul').toggle('fast');
+            });
         });
     </script>
     <ul class="menu-main">
-        <li class="menu-item num-00"><a href="index.html"></a>&nbsp;<span class="toggle-symbol">+</span>
+        <li class="menu-item num-00"><a class="showMenu"></a>&nbsp;<span class="toggle-symbol">+</span>
             <ul class="sub-menu small">
                 <li><a href="index.html"></a></li>
                 <li><a href="professionisti.html"></a></li>
@@ -26,7 +30,7 @@
         </li>
         
         
-        <li class="menu-item num-20"><a href=""></a>&nbsp;<span class="toggle-symbol">+</span>
+        <li class="menu-item num-20"><a class="showMenu"></a>&nbsp;<span class="toggle-symbol">+</span>
             <ul class="sub-menu large">
                 <li><a href="concorrenza.html"></a></li>
                 <li><a href="arbitration.html"></a></li>
@@ -42,7 +46,7 @@
             </ul>
         </li>
         
-        <li class="menu-item num-30"><a href=""></a>&nbsp;<span class="toggle-symbol">+</span>
+        <li class="menu-item num-30"><a class="showMenu"></a>&nbsp;<span class="toggle-symbol">+</span>
             <ul class="sub-menu large">
                <li><a href="concorrenza.html"></a></li>
                 <li><a href="arbitration.html"></a></li>
