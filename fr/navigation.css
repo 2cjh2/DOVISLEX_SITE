@@ -105,7 +105,7 @@
 /*#navigation .num-10 {width: 15%;}*/
 #navigation .num-20 {width: 15%;}
 #navigation .num-30 {width: 11%;}
-#navigation .num-40 {width: 25%; font-size: 0.7em;}
+#navigation .num-40 {width: 20%; font-size: 0.7em;}
 #navigation .num-50 {width: 17%;font-size: 0.6em;}
 #navigation .num-60 {width: 9%;}
 #navigation .num-70 {width: 11%;}
@@ -118,7 +118,7 @@ li.menu-item.num-00 a:before { content: "Qui sommes nous";}
 .num-00 .sub-menu.small li:nth-child(2) a:before { content: "Professionnels"; }
 .num-00 .sub-menu.small li:nth-child(3) a:before { content: "Affaires devant la Cour de Justice de l'Union européenne"; }
 .num-00 .sub-menu.small li:nth-child(4) a:before { content: "Bibliographie"; }
-.num-00 .sub-menu.small li:nth-child(5) a:before { content: "Nouveautés"; }
+.num-00 .sub-menu.small li:nth-child(5) a:before { content: "Actualités"; }
 .num-00 .sub-menu.small li:nth-child(6) a:before { content: "Contactez-nous"; }
 
 /*
@@ -160,9 +160,9 @@ li.menu-item.num-30 a:before { content: "Droit national";}
 .num-30 .sub-menu.large li:nth-child(6) a:before { content: "Marques, Dessins et Modèles"; }
 .num-30 .sub-menu.large li:nth-child(7) a:before { content: "Conseil à 360° pour l'ouverture d'entreprises et activités commerciales en Allemagne"; }
 
-li.menu-item.num-40 a:before { content: "Actions fondées sur le droit de l'Union européenne";}
+li.menu-item.num-40 a:before { content: "Actions fondées sur le droit de l'UE";}
 
 
-li.menu-item.num-50 a:before { content: "Affaires devant la Cour de Justice de l'Union européenne"; }
+li.menu-item.num-50 a:before { content: "Affaires devant la Cour de Justice de l'UE"; }
 li.menu-item.num-60 a:before { content: "Bureaux"; }
-li.menu-item.num-70 a:before { content: "Nouveautés"; }
+li.menu-item.num-70 a:before { content: "Actualités"; }
