@@ -1,38 +1,38 @@
-<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" lang="en">
-<!-- goes into div id="header" -->
-<head>
-    <!--<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>-->
-    <script src='../js/load-siteParts.js'></script>
-    <!--<script src = '../js/script.js'></script>-->
-    <script src='../js/change-lang.js'></script>
-    <script src='../js/jquery.cookie.js'></script>
-    <script>
-        /* Google translator uses a cookie called 'googtrans' to track which 
-        language is selected. By setting the cookie to '/en/fr', translator 
-        uses that to translate the current page to French 
-        * By setting the cookie, we're taking control of the language that 
-        we want to translate the page to */
+<script>
+    /*  Google translator uses a cookie called 'googtrans' to track which 
+     *  language is selected. By setting googtrans cookie to '/en/fr', translator 
+     *  will use that information to translate the current page into French.
+     *   
+     *  Google translator is a client-side language translator that provides
+     *  client a way to choose a different language using the Google translator 
+     *  widget. Because the widget is hidden from the client, a cookie must 
+     *  be used to tell the translator to what language it should translate to. */
+    Cookies.set('googtrans', '/en/fr', { domain: '.localhost', path: '' }); //needed for safari
+    Cookies.set('googtrans', '/en/fr', { path: '/' });
+
+    /*  Function below is provided by Google, needed to translate the page */
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'en',
+            includedLanguages: 'de,en,es,fr,it,la,ru',
+            autoDisplay: false,
+            multilanguagePage: true
+        }, 'google_translate_element');
+    }
     
-        // older version
-        //$.cookie('googtrans','/en/fr', {path: '/'});
-        //$.cookie('googtrans',null, {domain:'.localhost', path: ''});
-        
-        // new version
-        Cookies.set('googtrans', '/en/fr', { domain: '.localhost', path: '' }); //needed for safari
-        Cookies.set('googtrans', '/en/fr', { path: '/' });
-    </script>
-</head>
-<!-- <div class="tagline">Lawyers ✴ Legal ✴ Avvocato ✴ Avocats</div>
-<div class="contact-flag">For more information about how STUDIO DONÀ VISCARDINI can help you protect your interests, contact us at +39 049 875.21.79</div> -->
-<!-- <h1>Donà Viscardini</h1> -->
+    /*  Changes the color of the button selected to indicate that current page is
+     *  in French */
+    document.getElementById('lang-change-fr').style.backgroundColor = "#B09B4C";
+</script>
+<!-- Script below is provided by Google, needed to translate the page -->
+<script type='text/javascript' src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
+
 <div class="notranslate">
     <div id="stars">
         <h1>Donà Viscardini </h1>
     </div>
     <h4> Studio Legale • Cabinet d'Avocats • International Law Firm • Anwaltskanzlei • Abogados</h4>
 
-    <!-- no need for div here,
-        <div id="translate" style="display: inline">-->
     <div class= "btn">
         <!--Created an id for all links below following the 
             'lang-change-xx' pattern that already existed for EN and SP,
@@ -44,29 +44,5 @@
         <a id= "lang-change-de" class="btn_language" href="javascript:changeLang('lang-change-de');">DE</a>
         <a id= "lang-change-it" class="btn_language" href="javascript:changeLang('lang-change-it');">IT</a>
     </div>
-
-    <!--Google translator is needed to translate the page into French -->
-    <!--Google translator widget provided by Google, 
-        needed for translation, but is is set to not display on the page-->
-    <div id="google_translate_element" style="display: none;"></div>
-
-    <!--The two scripts below  are code provided by the Google, 
-        need it to translate the page -->
-    <script type="text/javascript">
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement({
-                pageLanguage: 'en', 
-                includedLanguages: 'fr', 
-                layout: google.translate.TranslateElement.InlineLayout.SIMPLE, 
-                multilanguagePage: true
-            }, 'google_translate_element');
-        }
-    </script>
-    <script type="text/javascript"
-            src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
-    </script>
-
-    <!--</div>  //end of translate div-->
     <div class="middle-bar"></div>
 </div>
-
