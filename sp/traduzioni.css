@@ -5,7 +5,7 @@ Some translations have been made manually and they are then substituted dynamica
 
 Unfortunately, Solution #2 (replacement --) does not work well with <li> tags (the bullet disappears). Solution #1 (insert where original tag is empty seems to work).
 
-Because of this and for standardization, these tags are empty in all languages and so their content needs to be reinserted in the oter languages as well)
+Because of this and for standardization, these tags are empty in all languages and so their content needs to be reinserted in the other languages as well)
 */
 
 /* 1. (Insert) This works well if original text is empty */
