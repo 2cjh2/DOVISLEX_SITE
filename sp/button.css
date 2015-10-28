@@ -17,7 +17,7 @@
 }
 
 .items li:nth-child(2) p:before {
-    content: 'ADR - Negociación, Mediación y Arbitraje';
+    content: 'ADR y Arbitrajes';
 }
 
 .items li:nth-child(2)  p:hover:before {
@@ -25,7 +25,7 @@
 }
 
 .items li:nth-child(3) p:before {
-    content: 'Derecho aduanero';
+    content: 'Derecho aduanero\aImport - Export';
 }
 
 .items li:nth-child(3) p:hover:before {
@@ -33,7 +33,7 @@
 }
 
 .items li:nth-child(4) p:before {
-    content: "Intercambios internos en la Unión Europea";
+    content: "Intercambios internos en la UE";
 }
 
 .items li:nth-child(4) p:hover:before {
@@ -49,8 +49,7 @@
 }
 
 .items li:nth-child(6) p:before {
-    font-size: xx-small;
-    content: 'Penal y Penal-administrativo relacionado con recursos financieros de la UE';
+    content: 'Penal-administrativo y Financiero';
 }
 
 .items li:nth-child(6) p:hover:before {
@@ -74,7 +73,7 @@
 }
 
 .items li:nth-child(9) p:before {
-    content: 'Bienes raíces en los EE.UU. y en Alemania';
+    content: 'Bienes raíces internacionales';
 }
 
 .items li:nth-child(9) p:hover:before {
@@ -82,8 +81,7 @@
 }
 
 .items li:nth-child(10) p:before {
-    font-size: xx-small;
-    content: 'Consultoría de 360° para la apertura de empresas y negocios en Alemania';
+    content: 'Consultoría de 360° en Alemania';
 }
 
 .items li:nth-child(10) p:hover:before {

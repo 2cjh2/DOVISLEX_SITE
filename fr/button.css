@@ -25,7 +25,7 @@
 }
 
 .items li:nth-child(3) p:before {
-    content: 'Droit douanier';
+    content: 'Droit douanier\aImport - Export';
 }
 
 .items li:nth-child(3) p:hover:before {
@@ -33,8 +33,7 @@
 }
 
 .items li:nth-child(4) p:before {
-    font-size: small;
-    content: "Les échanges à l'intérieur de l'Union européenne";
+    content: "Les échanges à l'intérieur de l'EU";
 }
 
 .items li:nth-child(4) p:hover:before {
@@ -50,8 +49,7 @@
 }
 
 .items li:nth-child(6) p:before {
-    font-size: xx-small;
-    content: "Droit pénal et pénal-administratif en relation avec les ressources financières de l'Union";
+    content: "Droit pénal et pénal-administratif";
 }
 
 .items li:nth-child(6) p:hover:before {
@@ -75,8 +73,7 @@
 }
 
 .items li:nth-child(9) p:before {
-    font-size: small;
-    content: 'Immobilier aux Etats-Unis et en Allemagne';
+    content: 'Immobilier international';
 }
 
 .items li:nth-child(9) p:hover:before {
@@ -84,8 +81,7 @@
 }
 
 .items li:nth-child(10) p:before {
-    font-size: xx-small;
-    content: "Conseil à 360° pour l'ouverture d'entreprises et activités commerciales en Allemagne";
+    content: "Conseil à 360° en Allemagne";
 }
 
 .items li:nth-child(10) p:hover:before {
