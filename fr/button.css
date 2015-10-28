@@ -1,0 +1,93 @@
+/* 
+ *  Author: Anthea Jung
+ *  Created: 10/23/2015
+ *  Last modified: 10/27/2015
+ *  
+ *  Used to change the language of side buttons 
+ *  Longer text has smaller font sizes, can be easily changed by removing
+ *  font-size. */
+
+
+.items li:nth-child(1)  p:before {
+    content: "Antitrust, Aides d'Etat, Concurrence";
+}
+
+.items li:nth-child(1)  p:hover:before {
+    content: 'Antitrust, State aid & competition';
+}
+
+.items li:nth-child(2) p:before {
+    content: 'ADR - Négociation, Médiation, Arbitrages';
+}
+
+.items li:nth-child(2)  p:hover:before {
+    content: 'Arbitration & ADR';
+}
+
+.items li:nth-child(3) p:before {
+    content: 'Droit douanier';
+}
+
+.items li:nth-child(3) p:hover:before {
+    content: 'Customs & tariffs\aImport - Export';
+}
+
+.items li:nth-child(4) p:before {
+    font-size: small;
+    content: "Les échanges à l'intérieur de l'Union européenne";
+}
+
+.items li:nth-child(4) p:hover:before {
+    content: 'Exchanges within the UE';
+}
+
+.items li:nth-child(5)  p:before {
+    content: 'Agriculture, pêche, industrie, environnement';
+}
+
+.items li:nth-child(5)  p:hover:before {
+    content: 'Agriculture, industry, environment';
+}
+
+.items li:nth-child(6) p:before {
+    font-size: xx-small;
+    content: "Droit pénal et pénal-administratif en relation avec les ressources financières de l'Union";
+}
+
+.items li:nth-child(6) p:hover:before {
+    content: 'Penal administrative & financial';
+}
+
+.items li:nth-child(7) p:before {
+    content: 'Contrats commerciaux';
+}
+
+.items li:nth-child(7) p:hover:before {
+    content: 'Commercial contracts';
+}
+
+.items li:nth-child(8) p:before {
+    content: 'Marques communautaires';
+}
+
+.items li:nth-child(8) p:hover:before {
+    content: 'Trademarks, models & designs';
+}
+
+.items li:nth-child(9) p:before {
+    font-size: small;
+    content: 'Immobilier aux Etats-Unis et en Allemagne';
+}
+
+.items li:nth-child(9) p:hover:before {
+    content: 'International Real Estate';
+}
+
+.items li:nth-child(10) p:before {
+    font-size: xx-small;
+    content: "Conseil à 360° pour l'ouverture d'entreprises et activités commerciales en Allemagne";
+}
+
+.items li:nth-child(10) p:hover:before {
+    content: '360° assistance in Germany';
+}

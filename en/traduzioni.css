@@ -9,7 +9,7 @@ Because of this and for standardization, these tags are empty in all languages a
 */
 
 /* 1. (Insert) This works well if original text is empty */
-.LcustomTranslationLI#L1::after {content: "actions to oppose fines imposed by the European Commission for anti-competitive agreements in the steel sector;"; }
+/*.LcustomTranslationLI#L1::after {content: "actions to oppose fines imposed by the European Commission for anti-competitive agreements in the steel sector;"; }
 
 .LcustomTranslationLI#L3::after {content: "against Member States suspected of having planned and / or implemented State aid incompatible with the European rules (Articles 107 and 108 TFEU)."; }
 
@@ -29,4 +29,5 @@ Because of this and for standardization, these tags are empty in all languages a
 .LcustomTranslationLI#L56::after {content: "against Italy for having planned and implemented fiscal measures to be considered State aid incompatible with the European rules (Articles 107 and 108 TFEU);"; }
 .LcustomTranslationLI#L57::after {content: "against Italy for violation by the local customs authorities, of the Community legislation on the rights to health inspection;"; }
 .LcustomTranslationLI#L58::after {content: "against Poland for violation by the regional authorities of the European legislation on the environment and the principles of freedom of establishment and provision of services, having refused - it is believed for discriminatory reasons based on nationality - to a Polish company with Italian capital the authorization to operate a waste disposal plant in Poland."; }
+*/
 

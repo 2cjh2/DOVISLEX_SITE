@@ -1,7 +1,7 @@
 /* 
  *  Author: Anthea Jung
  *  Created: 10/20/2015
- *  Last modified: 10/20/2015
+ *  Last modified: 10/27/2015
  *  
  *  This page provides common head tag elements to all pages
  *  To add a new js/css/meta, concatenate a new string to data */
@@ -15,7 +15,7 @@ var data =
 +
 "<link rel='stylesheet' type='text/css' href='../css/footer.css'/>"
 +
-"<link rel='stylesheet' type='text/css' href='traduzioni.css'/>"
+"<link rel='stylesheet' type='text/css' href='button.css'/>"
 +
 "<link class='responsive_css'>"
 +
@@ -24,6 +24,8 @@ var data =
 "<script src='../js/change-lang.js'></script>"
 +
 "<script src='../js/load-siteParts.js'></script>"
++
+"<script src='load-contents.js'></script>"
 +
 "<script> \n\
     $(function () { \n\
