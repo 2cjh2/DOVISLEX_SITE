@@ -3,7 +3,7 @@
 
 
 /* 2. this replaces original text empty or not */
-.LcustomTranslation {color: transparent;  text-indent: -9999px; line-height: 0;}
+/*.LcustomTranslation {color: transparent;  text-indent: -9999px; line-height: 0;}
 .LcustomTranslation::after { color: #666; text-indent: 0; line-height: initial; display: block;}
 
 .LcustomTranslationLI#L1:after {content: "Maßnahmen um die von der europäischen Kommission verhängte Geldstrafen für die wettbewerbswidrigen Vereinbarungen im Stahlsektor wiederzusetzen;"; }
