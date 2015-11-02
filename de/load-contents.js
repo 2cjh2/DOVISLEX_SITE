@@ -169,7 +169,7 @@ function loadContents() {
     appendORreplace('#L16', "Die Europäische Marke verleiht ihrem Besitzer Schutz vor Vervielfältigung oder Nachahmung seiner Marke in der gesamten Europäischen Union;  insbesondere auf das Recht, einen dritten zu verbieten ähnliche oder identische Zeichen, ohne Zustimmung, zu benutzen (unter bestimmten Bedingungen, wird dieses Recht auch für Produkte oder Dienstleistungen, verchieden als die für die die Marke engetragen ist, erweitert).");
     appendORreplace('#L17', "eine Handlung für die Nichtigkeit einer Marke vorlegen, die an ein anderes Unternehmen gewährt worde.");
     appendORreplace('#L18', "Antrag auf Nichtigerklärung oder Erklärung");
-    appendORreplace('#L19', "Berufung an die Beschwerdekammern");
+    appendORreplace('#L19', "Beschwerde bei den Beschwerdekammern");
     appendORreplace('#L20', "Berufung an das Gericht der Europäischen Union gegen die Entscheidungen der Beschwerdekammern"); 
     
     
