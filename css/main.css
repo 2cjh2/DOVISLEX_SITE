@@ -271,6 +271,27 @@ img.goog-te-gadget-icon {
     height: 14px;
 }
 
+/* This Removes 'Original Text'*/
+
+/* hides the pop up of 'Origianl Text' */
+.goog-tooltip {
+    display: none !important;
+}
+/* hides the highlight */
+.goog-text-highlight {
+    background-color: transparent !important;
+    border: none !important; 
+    box-shadow: none !important;
+}
+
+/*.goog-tooltip:hover {
+    display: none !important;
+}*/
+
+
+body {top: 0px !important; position: static !important; }
+iframe.goog-te-banner-frame,.goog-te-balloon-frame{display:none !important;}
+
 div.btn {
     /*position: relative;
     right: 15%;
