@@ -30,8 +30,7 @@ var data =
 "<script> \n\
     $(function () { \n\
         $('span').click(function () { \n\
-            $(this).parent().find('div').toggle('fast'); \n\
-            $(this).parent().children().find('div').toggle('fast');\n\
+            $(this).next().toggle('fast');\n\
             $(this).select('span').text(function (_, value) { \n\
                 return value == '« minus' ? '» plus' : '« minus'; \n\
             }); \n\
