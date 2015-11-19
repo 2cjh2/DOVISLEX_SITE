@@ -1,57 +1,66 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Document Form</title>
 
     <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
-    
+
     <!--All page specific code goes above this line which loads the common head-->
     <script src="../js/load-head.js"></script>
-</head>
+  </head>
 
-<body onload="loadSiteParts()">
-
-<div id="supra-header"></div>
-<div id="page">
-    <div id="header"></div>
-
-    <div id="main-container" class="clear">
+  <body onload="loadSiteParts()">
+    <div id="supra-header"></div>
+    <div id="page">
+      <div id="header"></div>
+      <div id="main-container" class="clear">
         <div id="tableDiv">
-            <div id="main-content">
-                <header class="article-title"><h1>Document Form</h1></header>
+          <div id="main-content">
+            <header class="article-title">
+              <h1>Document Form</h1>
+            </header>
 
-                <form enctype="text/plain" method="post"
-                      action="mailto:beckermd@gmail.com?subject= Consult from Website" class="contact">
-                    <fieldset class="contact-inner">
-                        <div class="contact-input">
-                            <label class="label-input">Name</label> <input  class="input" type="text" name="name" placeholder="Your Name…">
-                        </div>
+            <form enctype="text/plain" method="post"
+                  action="mailto:beckermd@gmail.com?subject= Consult from Website" 
+                  class="contact">
+              
+              <fieldset class="contact-inner">
+                <div class="contact-input">
+                  <label class="label-input">Name</label> 
+                  <input class="input" type="text" name="name" placeholder="Your Name…">
+                </div>
 
-                        <div class="contact-input">
-                            <label class="label-input">e-mail</label> <input class="input" type="text" name="name" placeholder="Your e-mail...">
-                        </div>
+                <div class="contact-input">
+                  <label class="label-input">e-mail</label> 
+                  <input class="input" type="text" name="name" placeholder="Your e-mail...">
+                </div>
 
-                        <div class="contact-input">
-                            <label class="label-input">Comments</label> <textarea class="input" name="message" placeholder="Your Message…" rows="6"></textarea>
-                        </div>
+                <div class="contact-input">
+                  <label class="label-input">Comments</label> 
+                  <textarea class="input" name="message" placeholder="Your Message…" 
+                    rows="6">
+                  </textarea>
+                </div>
 
-                        <div class="contact-submit">
-                            <button type="submit" value="Send" class="btn send">Send</button>
-                            <button type="reset" value="Cancel" class="btn cancel">Cancel</button>
-                        </div>
-                    </fieldset>
-                </form>
-
-            </div>
-
-            <div id="buttons-container"></div>
-        </div>
-    </div>
-    <!-- #main-container -->
-    <nav id="navigation"></nav>
-    <!-- #site-navigation -->
-    <footer id="colophon" class="clearfix"></footer>
-</div>
-</body>
+                <div class="contact-submit">
+                  <button type="submit" value="Send" class="btn send">
+                    Send
+                  </button>
+                  <button type="reset" value="Cancel" class="btn cancel">
+                    Cancel
+                  </button>
+                </div>
+                
+              </fieldset>
+            </form>
+            
+          </div> <!-- #main-content -->
+          <div id="buttons-container"></div> <!-- #buttons.html-container -->
+        </div> <!-- #tableDiv -->
+      </div> <!-- #main-container -->
+      <nav id="navigation"></nav> <!-- #site-navigation -->
+      <footer id="colophon" class="clearfix"></footer>
+    </div> <!-- #page -->
+  </body>
 </html>
