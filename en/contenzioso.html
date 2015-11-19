@@ -1,57 +1,69 @@
 <!DOCTYPE html>
-
-<head>
+<html>
+  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Cases</title>
 
-	<link rel='stylesheet' type='text/css' href='../css/contenzioso.css'/>
+    <link rel='stylesheet' type='text/css' href='../css/contenzioso.css'/>
 
- 	<!-- Common <head> html is loaded through this code -->
+    <!-- Common <head> html is loaded through this code -->
     <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
     <script src="../js/load-head.js"></script>
-    
-</head>
+  </head>
 
+  <body onload="loadSiteParts(); loadContents();">
+    <div id="supra-header"></div>
+    <div id="page">
+      <div id="header"></div>
+      <div id="main-container" class="clear">
+        <div id="tableDiv">
+          <div id="main-content">
+            <header class="article-title notranslate">
+              <h1>Cases</h1>
+            </header>
+            
+            <article>
+              <h2>List of cases represented by partners of the Firm before 
+                the Tribunal and the Court of Justice of the European Union</h2>
+              <br>
 
-<body onload="loadSiteParts(); loadContents();">
-<div id="supra-header"></div>
-<div id="page">
-    <div id="header"></div>
+              <div id="contenzioso"></div>
+              
+              <p>This table only lists those cases that have reached the 
+                Tribunal or the Court of Justice. The great majority of 
+                cases take place before national Courts, other European 
+                institutions, or follow administrative proceedings.
+              </p>
+              
+              <p class=notranslate><b>Nota Bene</b></p>
+              
+              <p>For reasons of confidentiality (in particular, to avoid 
+                identification of the client), for each case the roll number 
+                was omitted. For each case are reported:
+              </p>
 
-    <div id="main-container" class="clear">
-    <div id="tableDiv">
-    <div id="main-content">
-    <header class="article-title notranslate"><h1>Cases</h1></header>
-    <article>
-    <h2>List of cases represented by partners of the Firm before the Tribunal and the Court of Justice of the European Union</h2>
-    <br>
-
-    <div id="contenzioso"></div>
-    
-    <p>This table only lists those cases that have reached the Tribunal or the Court of Justice. The great majority of cases take place before national Courts, other European institutions, or follow administrative proceedings.</p>
-					<p class=notranslate><b>Nota Bene</b></p>
-					<p>For reasons of confidentiality (in particular, to avoid identification of the client), for each case the roll number was omitted. For each case are reported:</p>
-					
-                  <ul>
-                    <li>the letter <b>T</b> to indicate proceedings before the <b>Tribunal</b> (until November 30, 2009 called Court of First Instance);</li>
-                    <li>the letter <b>C</b> (or with no letter) to indicate proceedings before the <b>Court of Justice</b>;</li>
-                    <li>the letter <b>P</b> to indicate appeal proceedings before the <b>Court of Justice against decisions of the Court</b>;</li>
-		<li>the year of rooting of the case;</li>
-		<li>the subject matter and any clarifications.</li>
-		</ul>
-        
-    </article>
- 
-    <!--<div id="buttons-container">&lt;!&ndash; goes into div id="buttons-container" &ndash;&gt;-->
-
-    <!--</div>-->
-    </div>
-    </div>
-    <!-- #main-container -->
-
-    <nav id="navigation"></nav>
-    <!-- #site-navigation -->
-    <footer id="colophon" class="clearfix"></footer>
-</div>
-</body>
+              <ul>
+                <li>the letter <b>T</b> to indicate proceedings before the 
+                  <b>Tribunal</b> (until November 30, 2009 called Court of 
+                  First Instance);
+                </li>
+                <li>the letter <b>C</b> (or with no letter) to indicate 
+                  proceedings before the <b>Court of Justice</b>;
+                </li>
+                <li>the letter <b>P</b> to indicate appeal proceedings 
+                  before the <b>Court of Justice against decisions of 
+                  the Court</b>;
+                </li>
+                <li>the year of rooting of the case;</li>
+                <li>the subject matter and any clarifications.</li>
+              </ul>
+            </article>
+            
+          </div> <!-- #main-content -->
+        </div> <!-- #tableDiv -->
+      </div> <!-- #main-container -->
+      <nav  id="navigation"></nav><!-- #site-navigation -->
+      <footer id="colophon" class="clearfix"></footer>
+    </div> <!-- #page -->
+  </body>
 </html>
